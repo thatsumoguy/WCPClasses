@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #b5b1fd;
+	max-width:70%;
+	margin:auto;
+	}
+#wrapper {
+	background-color: #FFF;
+}
+.WCPlogo{
+	background-color: #FFF;
+}
+.button-wrapper {
+	display:block;
+	background-color: #FFF;
+}
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-left:20px;
+	}
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-left:20px;
+	}
+p {
+	padding-left:20px;
+	padding-right:20px;
+}
+}
+.WCPlogo {
+	background-color: #fff;
+	
+}
+.footer{
+	display: block;
+	
+}
+/*--------------------- Button properties---------------------*/
+button {
+	padding:0;
+	border: none;
+	background:none;
+	
+}
