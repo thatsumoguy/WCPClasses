@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="/Content/styles.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="WCPClogo wrapper">
+<center><img class="logo" src="/wcpLogo.png"></center>
+</div>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="footer"> <center>&copy; @DateTime.Now.Year Women's Choice Pavillion</center></div>
+</body>
+</html>

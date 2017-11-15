@@ -9,10 +9,10 @@ namespace WCPClasses
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        protected void Application_Start()
+        protected void Application_Start(object sender, EventArgs e)
         {
-            AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            
+            RouteConfig.RegisterRoutes(System.Web.Routing.RouteTable.Routes);
         }
     }
 }

@@ -1,12 +1,13 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 body {
 	background-color: #b5b1fd;
 	max-width:70%;
 	margin:auto;
 	}
-#wrapper {
+.wrapper {
 	background-color: #FFF;
+    padding-bottom: -5px;
 }
 .WCPlogo{
 	background-color: #FFF;
@@ -16,11 +17,12 @@ body {
 	background-color: #FFF;
 }
 h1 {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	padding-left:20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    padding-left: 20px;
 	}
 h2 {
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	padding-left:20px;
 	}
 p {
@@ -28,18 +30,36 @@ p {
 	padding-right:20px;
 }
 }
-.WCPlogo {
-	background-color: #fff;
+img .logo {
+	width: 50%;
 	
 }
 .footer{
 	display: block;
 	
 }
-/*--------------------- Button properties---------------------*/
-button {
-	padding:0;
-	border: none;
-	background:none;
-	
+/*--------------------- Form properties---------------------*/
+
+.form {
+    margin: 0 auto;
+    max-width:80%
+}
+form {
+    margin:auto;
+    
+}    
+    
+.legend-text {
+	font-family:'Brush Script MT';
+    font-size:205%;
+}
+.fieldset {
+    max-width:80%;
+}
+
+input[type=text]:focus {
+    background-color:#f7b8fe;
+}
+input[type=email]:focus {
+    background-color:#f7b8fe;
 }

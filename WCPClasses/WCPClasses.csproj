@@ -175,6 +175,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ClassSession.cs" />
+    <Compile Include="Models\ParticipantViewModel.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -186,7 +188,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\WCPClasses.csprojResolveAssemblyReference.cache" />
     <Content Include="bin\ApplicationInsights.config" />
@@ -195,6 +196,9 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\WCPClasses.dll.config" />
     <Content Include="Views\FPClass\FPClass.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -204,7 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
