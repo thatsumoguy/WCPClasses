@@ -9,8 +9,8 @@ body {
 	background-color: #FFF;
     padding-bottom: -5px;
 }
-.WCPlogo{
-	background-color: #FFF;
+.logo{
+
 }
 .button-wrapper {
 	display:block;
@@ -20,20 +20,20 @@ h1 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
     padding-left: 20px;
+    text-align:center;
 	}
 h2 {
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family:'Brush Script MT';
 	padding-left:20px;
+    font-size: 220%;
+    text-align:center;
 	}
 p {
 	padding-left:20px;
 	padding-right:20px;
 }
 }
-img .logo {
-	width: 50%;
-	
-}
+
 .footer{
 	display: block;
 	
@@ -42,11 +42,12 @@ img .logo {
 
 .form {
     margin: 0 auto;
-    max-width:80%
+    max-width:80%;
+    
 }
 form {
     margin:auto;
-    
+    background-color:bisque;
 }    
     
 .legend-text {
@@ -56,10 +57,27 @@ form {
 .fieldset {
     max-width:80%;
 }
-
+.class-info {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:120%;
+}
 input[type=text]:focus {
     background-color:#f7b8fe;
 }
 input[type=email]:focus {
     background-color:#f7b8fe;
+}
+.Button-Submit {
+    padding:10px;
+
+}
+/*--------------------- Table properties---------------------*/
+table {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.table-data-header {
+    font-size: 115%;
+    padding-left:100px;
 }
