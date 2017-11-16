@@ -55,7 +55,7 @@ namespace WCPClasses.Controllers
                     LastName = p.LastName,
                     FirstName = p.FirstName,
                     EmailAddress = p.ParticipantEmail
-                });
+                }).ElementAtOrDefault(id-1);
 
                 return View(participantView);
             }
